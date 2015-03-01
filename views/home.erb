@@ -14,6 +14,8 @@
   <input type="submit" value="Submit">
   </form>
 
+<% unless params == nil %>
+
 <% word1 = params[:word1] %>
 <% word2 = params[:word2] %>
 
@@ -32,3 +34,4 @@
   <% elsif params[:type] == "anagram" %>
   <p>Still not written</p>
   <% end %>
+<% end %>
