@@ -1,0 +1,61 @@
+body {
+  background-color: #FFFEFA;
+}
+
+div {
+  text-align: center;
+}
+
+.answer {
+  font-family: 'Play', sans-serif;
+  font-size: 36px;
+  color: #E97B68;
+}
+
+.form {
+  padding: 25px;
+  font-family: 'Play', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #1A6B00;
+  margin-left: -40px;
+}
+
+.radio {
+  padding: 25px;
+  margin-left: -40px;
+  font-family: 'Play', sans-serif;
+  font-size: 36px;
+  color: #694AE9;
+}
+
+.submit {
+  padding: 15px;
+  font-size: 18px;
+  border: 1px;
+  font-family: 'Play', sans-serif;
+  background: none;
+  color: #0919FF;
+  font-weight: 800;
+}
+
+.title {
+  text-align: center;
+  color: #1A6B00;
+  font-size: 24px;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: 'Play', sans-serif;
+}
+
+h2 {
+  font-family: 'Play', sans-serif;
+  color: #0919FF;
+}
+
+h4 {
+  font-family: 'Play', sans-serif;
+  color: #694AE9;
+}

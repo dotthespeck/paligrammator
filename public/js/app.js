@@ -1,16 +1,16 @@
 $(document).ready(function () {
 
-   $('form :submit').hide();
+   $('div :submit').hide();
 
    var defaultVal = 'default';
 
-   $('form :radio').change(function() {
+   $('div :radio').change(function() {
        var val = $(this).val();
 
        if(val!=defaultVal) {
-         $('form :submit').show();
+         $('div :submit').show();
        } else {
-         $('form :submit').hide();
+         $('div :submit').hide();
        }
    });
 

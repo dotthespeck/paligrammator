@@ -1,25 +1,41 @@
-<h2>Please input two words</h2>
+<div>
+  <h2>Please input two words</h2>
+</div>
 
+<div>
+  <h4>If you choose "palindrome," the Palingrammator will tell you if one of the words is a palindrome (or both!)</h4>
+  <h4>If you choose "anagram", the Palingrammator will tell you if the two words are anagrams of each other</h4>
+</div>
+
+<div class="form">
   <form method="post" action="/home">
     Word One
-  <input type="text" name="word1" required><br />
+  <input type="text" name="word1" required>
 
   <form method="post" action ="/home">
     Word Two
   <input type="text" name="word2" required><br />
+</div>
 
-  <input type="radio" name="type" value="palindrome">Palindrome<br />
-  <input type="radio" name="type" value="anagram">Anagram<br />
+<div class="radio">
+  <input type="radio" name="type" value="palindrome">Palindrome
+  <input type="radio" name="type" value="anagram">Anagram
+</div>
 
+<div class="submit">
   <input type="submit" class="submit" value="Submit">
-  </form>
+</div>
+
+</form>
 
 <% word1 = params[:word1] %>
 <% word2 = params[:word2] %>
 
+<div class="answer">
   <% if params[:type] == "palindrome" %>
     <p><%= palindrome(word1, word2) %></p>
 
   <% elsif params[:type] == "anagram" %>
     <p><%= anagram(word1, word2) %></p>
   <% end %>
+</div>
