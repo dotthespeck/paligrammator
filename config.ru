@@ -1,2 +1,2 @@
-require './liquid_challenge'
+require './server'
 run Sinatra::Application
