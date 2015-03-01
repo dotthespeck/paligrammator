@@ -1,2 +1,2 @@
-require './home'
+require './views/home'
 run Sinatra::Application
