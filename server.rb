@@ -1,3 +1,5 @@
+require 'sinatra'
+
 helpers do
 
   def palindrome(word1, word2)
