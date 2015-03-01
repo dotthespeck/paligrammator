@@ -11,27 +11,15 @@
   <input type="radio" name="type" value="palindrome">Palindrome<br />
   <input type="radio" name="type" value="anagram">Anagram<br />
 
-  <input type="submit" value="Submit">
+  <input type="submit" class="submit" value="Submit">
   </form>
-
-<% unless params == nil %>
 
 <% word1 = params[:word1] %>
 <% word2 = params[:word2] %>
 
   <% if params[:type] == "palindrome" %>
-
-    <% if word1 == word1.reverse && word2 == word2.reverse %>
-      <p><%= "Both #{word1} and #{word2} are palindromes!" %></p>
-    <% elsif word1 == word1.reverse %>
-      <p><%= "Yes, #{word1} is a palindrome. But #{word2} is not." %></p>
-    <% elsif word2 == word2.reverse %>
-      <p><%= "Yes, #{word2} is a palindrome. But #{word1} is not." %></p>
-    <% else %>
-      <p><%= "Neither #{word1} or #{word2} is a palindrome" %></p>
-    <% end %>
+    <p><%= palindrome(word1, word2) %></p>
 
   <% elsif params[:type] == "anagram" %>
-  <p>Still not written</p>
+    <p><%= anagram(word1, word2) %></p>
   <% end %>
-<% end %>
