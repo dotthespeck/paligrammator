@@ -8,7 +8,7 @@ helpers do
     elsif word2 == word2.reverse
       a = "Yes, #{word2} is a palindrome, but #{word1} is not"
     else
-      a = "Neither #{word1} or #{word2} is a palindrome"
+      a = "Neither #{word1} nor #{word2} is a palindrome"
     end
     return a
   end
@@ -26,12 +26,12 @@ helpers do
   end
 end
 
-get '/home' do
+get '/' do
 
   erb :home
 end
 
-post '/home' do
+post '/' do
 
   erb :home
 end
