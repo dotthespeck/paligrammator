@@ -1,2 +1,2 @@
-require './views/home'
+require './liquid_challenge'
 run Sinatra::Application
