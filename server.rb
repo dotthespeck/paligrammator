@@ -1,7 +1,3 @@
-require 'sinatra'
-require 'sinatra/reloader'
-require 'pry'
-
 helpers do
 
   def palindrome(word1, word2)
