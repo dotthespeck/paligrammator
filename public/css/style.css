@@ -26,7 +26,7 @@ div {
   margin-left: -40px;
   font-family: 'Play', sans-serif;
   font-size: 36px;
-  color: #694AE9;
+  color: #1A6B00;
 }
 
 .submit {
@@ -35,7 +35,7 @@ div {
   border: 1px;
   font-family: 'Play', sans-serif;
   background: none;
-  color: #0919FF;
+  color: #1A6B00;
   font-weight: 800;
 }
 
@@ -52,11 +52,11 @@ h1 {
 
 h2 {
   font-family: 'Play', sans-serif;
-  color: #0919FF;
+  color: #1A6B00;
 }
 
 h4 {
   font-family: 'Play', sans-serif;
   font-size: 18px;
-  color: #694AE9;
+  color: #1A6B00;
 }
